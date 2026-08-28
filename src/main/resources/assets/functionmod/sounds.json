@@ -1,0 +1,80 @@
+{
+  "zone_flip":{
+    "subtitle": "sounds.functionmod.zone_flip",
+    "sounds":[
+      "functionmod:zone_flip"
+    ]
+},
+  "waylay_slow":{
+    "subtitle": "sounds.functionmod.waylay_slow",
+    "sounds":[
+      "functionmod:waylay_slow"
+    ]
+  },
+  "waylay_refract":{
+    "subtitle": "sounds.functionmod.waylay_refract",
+    "sounds":[
+      "functionmod:waylay_refract"
+    ]
+  },
+  "waylay_ult":{
+    "subtitle": "sounds.functionmod.waylay_ult",
+    "sounds":[
+      "functionmod:waylay_ult"
+    ]
+  },
+  "jett_dash":{
+    "subtitle": "sounds.functionmod.jett_dash",
+    "sounds":[
+      "functionmod:jett_dash"
+    ]
+  },
+  "jett_updraft":{
+    "subtitle": "sounds.functionmod.jett_updraft",
+    "sounds":[
+      "functionmod:jett_updraft"
+    ]
+  },
+  "cloudburst_throw":{
+    "subtitle": "sounds.functionmod.cloudburst_throw",
+    "sounds":[
+      "functionmod:cloudburst_throw"
+    ]
+  },
+  "knight_fireball":{
+    "subtitle": "sounds.functionmod.knight_fireball",
+    "sounds":[
+      "functionmod:knight_fireball"
+    ]
+  },
+  "rude_buster_hit":{
+    "subtitle": "sounds.functionmod.rude_buster_hit",
+    "sounds":[
+      "functionmod:rude_buster_hit"
+    ]
+  },
+  "double_time":{
+    "subtitle": "sounds.functionmod.double_time",
+    "sounds":[
+      "functionmod:double_time"
+    ]
+  },
+  "in_the_flow":{
+    "subtitle": "sounds.functionmod.in_the_flow",
+    "sounds":[
+      "functionmod:in_the_flow"
+    ]
+  },
+  "tristrike_throw":{
+    "subtitle": "sounds.functionmod.tristrike_throw",
+    "sounds":[
+      "functionmod:tristrike_throw"
+    ]
+  },
+  "deltarune_fall":{
+    "subtitle": "sounds.functionmod.deltarune_fall",
+    "sounds":[
+      "functionmod:deltarune_fall"
+    ]
+  }
+}
