@@ -1,10 +1,16 @@
 {
-  "zone_flip":{
-    "subtitle": "sounds.functionmod.zone_flip",
+  "zone_flip_good":{
+    "subtitle": "sounds.functionmod.zone_flip_good",
     "sounds":[
-      "functionmod:zone_flip"
+      "functionmod:zone_flip_good"
     ]
 },
+  "zone_flip_bad":{
+    "subtitle": "sounds.functionmod.zone_flip_bad",
+    "sounds":[
+      "functionmod:zone_flip_bad"
+    ]
+  },
   "waylay_slow":{
     "subtitle": "sounds.functionmod.waylay_slow",
     "sounds":[
@@ -21,6 +27,18 @@
     "subtitle": "sounds.functionmod.waylay_ult",
     "sounds":[
       "functionmod:waylay_ult"
+    ]
+  },
+  "holy_cast":{
+    "subtitle": "sounds.functionmod.holy_cast",
+    "sounds":[
+      "functionmod:holy_cast"
+    ]
+  },
+  "witch_time":{
+    "subtitle": "sounds.functionmod.witch_time",
+    "sounds":[
+      "functionmod:witch_time"
     ]
   },
   "jett_dash":{

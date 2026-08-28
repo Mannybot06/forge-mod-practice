@@ -16,7 +16,8 @@ public class ModSounds {
         SOUND_EVENTS.register(eventBus);
     }
     //GAME FUNCTION SOUNDS
-    public static final RegistryObject<SoundEvent> ZONE_FLIP = registerSoundEvents("zone_flip");
+    public static final RegistryObject<SoundEvent> ZONE_FLIP_BAD = registerSoundEvents("zone_flip_bad");
+    public static final RegistryObject<SoundEvent> ZONE_FLIP_GOOD = registerSoundEvents("zone_flip_good");
 
     //INDIVIDUAL ORIGIN SFX:
 
@@ -24,6 +25,8 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> WAYLAY_SLOW = registerSoundEvents("waylay_slow");
     public static final RegistryObject<SoundEvent> WAYLAY_REFRACT = registerSoundEvents("waylay_refract");
     public static final RegistryObject<SoundEvent> WAYLAY_ULT = registerSoundEvents("waylay_ult");
+    public static final RegistryObject<SoundEvent> HOLY_CAST = registerSoundEvents("holy_cast");
+    public static final RegistryObject<SoundEvent> WITCH_TIME = registerSoundEvents("witch_time");
 
     //SKYDANCER
     public static final RegistryObject<SoundEvent> JETT_DASH = registerSoundEvents("jett_dash");
