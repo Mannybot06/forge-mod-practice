@@ -71,6 +71,36 @@
       "functionmod:rude_buster_hit"
     ]
   },
+  "killbanner_base_1":{
+    "subtitle": "sounds.functionmod.killbanner_base_1",
+    "sounds":[
+      "functionmod:killbanner_base_1"
+    ]
+  },
+  "killbanner_base_2":{
+    "subtitle": "sounds.functionmod.killbanner_base_2",
+    "sounds":[
+      "functionmod:killbanner_base_2"
+    ]
+  },
+  "killbanner_base_3":{
+    "subtitle": "sounds.functionmod.killbanner_base_3",
+    "sounds":[
+      "functionmod:killbanner_base_3"
+    ]
+  },
+  "killbanner_base_4":{
+    "subtitle": "sounds.functionmod.killbanner_base_4",
+    "sounds":[
+      "functionmod:killbanner_base_4"
+    ]
+  },
+  "killbanner_base_ace":{
+    "subtitle": "sounds.functionmod.killbanner_base_ace",
+    "sounds":[
+      "functionmod:killbanner_base_ace"
+    ]
+  },
   "double_time":{
     "subtitle": "sounds.functionmod.double_time",
     "sounds":[

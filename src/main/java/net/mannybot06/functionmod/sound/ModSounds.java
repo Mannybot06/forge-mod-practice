@@ -37,6 +37,13 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> KNIGHT_FIREBALL = registerSoundEvents("knight_fireball");
     public static final RegistryObject<SoundEvent> RUDE_BUSTER_HIT = registerSoundEvents("rude_buster_hit");
 
+    //ENDERMAN
+    public static final RegistryObject<SoundEvent> KILLBANNER_BASE_1 = registerSoundEvents("killbanner_base_1");
+    public static final RegistryObject<SoundEvent> KILLBANNER_BASE_2 = registerSoundEvents("killbanner_base_2");
+    public static final RegistryObject<SoundEvent> KILLBANNER_BASE_3 = registerSoundEvents("killbanner_base_3");
+    public static final RegistryObject<SoundEvent> KILLBANNER_BASE_4 = registerSoundEvents("killbanner_base_4");
+    public static final RegistryObject<SoundEvent> KILLBANNER_BASE_ACE = registerSoundEvents("killbanner_base_ace");
+
     //MUSIC
     public static final RegistryObject<SoundEvent> DOUBLE_TIME = registerSoundEvents("double_time");
     public static final RegistryObject<SoundEvent> IN_THE_FLOW = registerSoundEvents("in_the_flow");
