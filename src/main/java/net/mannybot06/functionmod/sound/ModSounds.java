@@ -44,6 +44,12 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> KILLBANNER_BASE_4 = registerSoundEvents("killbanner_base_4");
     public static final RegistryObject<SoundEvent> KILLBANNER_BASE_ACE = registerSoundEvents("killbanner_base_ace");
 
+    //GUARDIAN
+    public static final RegistryObject<SoundEvent> HARBOR_BLIND = registerSoundEvents("harbor_blind");
+
+    //PIGLIN
+    public static final RegistryObject<SoundEvent> SPLASHDOWN_CHARGE = registerSoundEvents("splashdown_charge");
+
     //MUSIC
     public static final RegistryObject<SoundEvent> DOUBLE_TIME = registerSoundEvents("double_time");
     public static final RegistryObject<SoundEvent> IN_THE_FLOW = registerSoundEvents("in_the_flow");

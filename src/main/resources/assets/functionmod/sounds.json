@@ -101,6 +101,18 @@
       "functionmod:killbanner_base_ace"
     ]
   },
+  "harbor_blind":{
+    "subtitle": "sounds.functionmod.harbor_blind",
+    "sounds":[
+      "functionmod:harbor_blind"
+    ]
+  },
+  "splashdown_charge":{
+    "subtitle": "sounds.functionmod.splashdown_charge",
+    "sounds":[
+      "functionmod:splashdown_charge"
+    ]
+  },
   "double_time":{
     "subtitle": "sounds.functionmod.double_time",
     "sounds":[
