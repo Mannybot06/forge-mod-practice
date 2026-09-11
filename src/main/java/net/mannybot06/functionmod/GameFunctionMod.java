@@ -1,8 +1,17 @@
 package net.mannybot06.functionmod;
 
+import com.mojang.blaze3d.shaders.FogShape;
 import com.mojang.logging.LogUtils;
+import net.mannybot06.functionmod.effect.ModEffects;
 import net.mannybot06.functionmod.sound.ModSounds;
+import net.minecraft.client.renderer.FogRenderer;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.material.FogType;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.ForgeHooksClient;
+import net.minecraftforge.client.event.ViewportEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -20,7 +29,7 @@ import org.slf4j.Logger;
 public class GameFunctionMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "origin_function";
+    public static final String MOD_ID = "functionmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -33,6 +42,9 @@ public class GameFunctionMod
 
         // REGISTER MOD SOUNDS
         ModSounds.register(modEventBus);
+
+        //REGISTER MOD EFFECTS
+        ModEffects.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -60,12 +72,39 @@ public class GameFunctionMod
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = GameFunctionMod.MOD_ID, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
+        public static void onFogRender(ViewportEvent.RenderFog event) {
+            Entity camEntity = event.getCamera().getEntity();
+            if (camEntity instanceof LivingEntity livingEntity) {
+                var effectInstance = livingEntity.getEffect(ModEffects.NEARSIGHTED.get());
+                if (effectInstance != null) {
+                    int amplifier = effectInstance.getAmplifier();
+                    float factor = 1.5F / (amplifier + 1);
+                    float start = 1.0F;
+                    float end = 8.0F * factor;
 
+                    event.setNearPlaneDistance(start);
+                    event.setFarPlaneDistance(end);
+                    event.setCanceled(true);
+                }
+            }
         }
+
+        @SubscribeEvent
+        public static void onFogColor(ViewportEvent.ComputeFogColor event) {
+            Entity camEntity = event.getCamera().getEntity();
+            if (camEntity instanceof LivingEntity livingEntity) {
+                if (livingEntity.hasEffect(ModEffects.NEARSIGHTED.get())) {
+                    event.setRed(0f);
+                    event.setGreen(0f);
+                    event.setBlue(0f);
+                }
+            }
+        }
+
+
     }
 }

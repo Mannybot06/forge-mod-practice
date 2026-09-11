@@ -1,3 +1,8 @@
 {
-  "sounds.functionmod.zone_flip":"Zone Flips"
+  "sounds.functionmod.zone_flip":"Zone Flips",
+  "effect.functionmod.suppressed": "Suppressed",
+  "effect.functionmod.dazed": "Dazed",
+  "effect.functionmod.nearsighted": "Nearsighted",
+  "effect.functionmod.blueteam": "Blue Team",
+  "effect.functionmod.redteam": "Red Team"
 }

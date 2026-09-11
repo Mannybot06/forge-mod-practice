@@ -37,6 +37,9 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> KNIGHT_FIREBALL = registerSoundEvents("knight_fireball");
     public static final RegistryObject<SoundEvent> RUDE_BUSTER_HIT = registerSoundEvents("rude_buster_hit");
 
+    //NECROMANCER
+    public static final RegistryObject<SoundEvent> UNDERTALE_HEAL = registerSoundEvents("undertale_heal");
+
     //ENDERMAN
     public static final RegistryObject<SoundEvent> KILLBANNER_BASE_1 = registerSoundEvents("killbanner_base_1");
     public static final RegistryObject<SoundEvent> KILLBANNER_BASE_2 = registerSoundEvents("killbanner_base_2");
@@ -51,7 +54,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> SPLASHDOWN_CHARGE = registerSoundEvents("splashdown_charge");
 
     //MUSIC
-    public static final RegistryObject<SoundEvent> DOUBLE_TIME = registerSoundEvents("double_time");
+    public static final RegistryObject<SoundEvent> SHORT_MUSIC = registerSoundEvents("double_time");
     public static final RegistryObject<SoundEvent> IN_THE_FLOW = registerSoundEvents("in_the_flow");
 
     //MISC OR UNUSED

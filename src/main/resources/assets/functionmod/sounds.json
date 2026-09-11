@@ -113,18 +113,6 @@
       "functionmod:splashdown_charge"
     ]
   },
-  "double_time":{
-    "subtitle": "sounds.functionmod.double_time",
-    "sounds":[
-      "functionmod:double_time"
-    ]
-  },
-  "in_the_flow":{
-    "subtitle": "sounds.functionmod.in_the_flow",
-    "sounds":[
-      "functionmod:in_the_flow"
-    ]
-  },
   "tristrike_throw":{
     "subtitle": "sounds.functionmod.tristrike_throw",
     "sounds":[
@@ -135,6 +123,50 @@
     "subtitle": "sounds.functionmod.deltarune_fall",
     "sounds":[
       "functionmod:deltarune_fall"
+    ]
+  },
+  "short_music_1":{
+    "subtitle": "sounds.functionmod.short_music",
+    "sounds":[
+      "functionmod:double_time",
+      "functionmod:nimbly_does_it",
+      "functionmod:agile_accelerando",
+      "functionmod:swift_descent",
+      "functionmod:lickety_split"
+    ]
+  },
+  "long_music_1":{
+    "subtitle": "sounds.functionmod.long_music",
+    "sounds":[
+      "functionmod:toys_on_a_tear",
+      "functionmod:dance_of_the_blocks",
+      "functionmod:master_builder"
+    ]
+  },
+  "short_music_2":{
+    "subtitle": "sounds.functionmod.short_music",
+    "sounds":[
+      "functionmod:pronto",
+      "functionmod:chop_chop",
+      "functionmod:dashing_on_the_double",
+      "functionmod:time_is_of_the_essence",
+      "functionmod:breakneck_boogie"
+    ]
+  },
+  "long_music_2":{
+    "subtitle": "sounds.functionmod.long_music",
+    "sounds":[
+      "functionmod:glide",
+      "functionmod:departures",
+      "functionmod:pacy_piloting",
+      "functionmod:in_the_flow",
+      "functionmod:tense_takeoff"
+    ]
+  },
+  "undertale_heal":{
+    "subtitle": "sounds.functionmod.undertale_heal",
+    "sounds":[
+      "functionmod:undertale_heal"
     ]
   }
 }
